@@ -211,9 +211,9 @@
 							"pm.test(\"Response time is less than 500ms\", function () {\r",
 							"    pm.response.to.have.responseTime.lessThan(500);\r",
 							"});\r",
-							"pm.test(\"Response contains item id with the value 1\", function () {\r",
+							"pm.test(\"Response contains item id with the value obtained during add new item\", function () {\r",
 							"    var jsonData = pm.response.json();\r",
-							"    pm.expect(jsonData).to.have.property(\"item_id\").equal(1)\r",
+							"    pm.expect(jsonData).to.have.property(\"item_id\").equal(parseInt(pm.collectionVariables.get('item_id')))\r",
 							"});"
 						],
 						"type": "text/javascript",
