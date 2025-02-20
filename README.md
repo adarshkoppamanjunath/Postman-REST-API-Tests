@@ -1,10 +1,10 @@
-# Postman collectioon to test REST API endpoints
+# Postman collection to test REST API endpoints
 
-This will help in understanding devloping postman collection to test REST API endpoints
+This will help in understanding developing postman collection to test REST API endpoints
 - How to set variable
-- How to pass variable foe post api execution validation
-- How to test response data, status code and other details post API execution.
-- Some example for how to exectute another API in test script section. For example after delete, we need to execute make sure data is deleted or not
+- How to pass variables for post API execution validation
+- Test response data, status code, and other details post-API execution.
+- Some examples of how to execute another API in the test script section. For example, after DELETE call, we need to execute GET call make sure the data is deleted or not
 
 
 ## REST API endpoints used for testing can be accessed at
@@ -15,6 +15,6 @@ https://python-flask-apis.onrender.com/docs
 
 ## To use this locally,
 
-- Import postman collection json file in your postman workspace
+- Import Postman collection JSON file in your Postman workspace
 - Run collection
 
